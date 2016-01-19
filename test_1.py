@@ -10,7 +10,7 @@ class test_1(baseUnitTestCase):
 		self.logger.info('retreiving firefox webdriver.')
 		self.driver = webdriver.Firefox()
 		self.logger.info('Successfull launched the browser')
-		
+		print 'setup'
 	def test_1(self):
 		driver = self.driver
 		self.logger.info('setting the url')
